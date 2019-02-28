@@ -79,3 +79,13 @@ var shen = new Object();
 shen.firstNAme = "Jason";
 console.log(shen);
 console.log("Suraksha is " + MyDetails.calcAge(1998) + " years old");
+
+
+    let but = document.getElementById('btn');
+    but.addEventListener('mouseOver', changeColor);
+
+    function changeColor()
+    {
+        this.style.background="red";
+    }
+
